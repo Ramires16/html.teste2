@@ -1,0 +1,26 @@
+/* 1) Adaptando o corpo do texto para unidades relativas
+No arquivo style.css, escolha elementos de texto como <p> ou <h2>.
+Mude o font-size de px para rem, usando a regra de conversão (dividir o valor em pixels por 16).
+Salve e teste as mudanças nas configurações de aparência do navegador.
+
+
+2) Convertendo pixels para rem em CSS
+Abra o arquivo styles.css no seu editor de texto.
+Utilize o atalho "Ctrl + F" para procurar por font-size.
+Para cada ocorrência de font-size em pixels, converta o valor para rem. Por exemplo, se o valor original é 24px, divida por 16 (base para 1rem) para obter 1.5rem.
+Substitua o valor original pelo novo valor em rem. Por exemplo: font-size: 24px; torna-se font-size: 1.5rem;.
+Salve as alterações e atualize o arquivo no projeto.
+
+
+3) Melhorando a responsividade de um site
+Abra a página de portfólio no seu navegador.
+Altere as configurações de tamanho de fonte do navegador em diferentes níveis (Muito grande, Grande, Médio, Pequeno, Muito pequeno).
+Observe como os textos e o layout do site se adaptam a cada tamanho de fonte.
+Anote quaisquer problemas de layout ou legibilidade que encontrar em cada configuração de tamanho.
+
+
+4) Ajustando o CSS para diferentes tamanhos de fonte
+Com base nas suas observações, retorne ao arquivo styles.css.
+Faça ajustes em margin, padding, e font-size conforme necessário para melhorar a legibilidade e o layout em diferentes tamanhos de fonte.
+Teste novamente cada tamanho de fonte no navegador para garantir que as mudanças produziram o efeito desejado.
+Continue ajustando e testando até que o site seja responsivo e confortável de ler em todos os tamanhos de fonte. */

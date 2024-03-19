@@ -1,0 +1,38 @@
+/* 1) Adaptando imagens para diferentes tamanhos de tela
+No HTML, adicione a classe apresentacao__imagem às tags <img> relevantes.
+No CSS, adicione: */
+  .apresentacao__imagem {
+      width: 50%;
+  }
+/* Teste em diferentes larguras de tela, como 720px. */
+
+
+
+
+/* 2) Ajustando o layout para diferentes dispositivos
+Utilize a ferramenta "Inspecionar" do navegador para simular diferentes tamanhos de tela.
+Faça ajustes no CSS para melhorar a responsividade, alterando margens, paddings e a disposição dos elementos. */
+
+
+
+
+/* 3) Responsividade do conteúdo de texto */
+/* No CSS, altere a classe .apresentacao__conteudo: */
+  .apresentacao__conteudo {
+      width: 50%;
+      /* Outras propriedades... */
+  }
+/* Teste a responsividade alterando o tamanho da tela e ajuste conforme necessário. */
+
+
+
+
+
+
+/* 4) Melhorando a responsividade dos links de navegação
+No CSS, ajuste a classe .apresentacao__links__navegacao: */
+  .apresentacao__links__navegacao {
+      width: 50%;
+      /* Outras propriedades... */
+  }
+/* Teste em diferentes tamanhos de tela e observe a resposta dos links. Ajuste conforme necessário. */

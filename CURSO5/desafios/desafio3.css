@@ -1,0 +1,72 @@
+/* 1) Ajustando o layout para telas menores
+Observe o comportamento dos elementos ao diminuir o tamanho da tela.
+No arquivo CSS, na classe .apresentacao, adicione a propriedade gap com o valor de 82px, conforme indicado no projeto web do Figma: */
+    .apresentacao {
+        gap: 82px;
+        /* Restante das propriedades */
+    }
+/* Teste a responsividade ajustando o tamanho da tela para verificar se o espaço entre o texto e a imagem se mantém adequado. */
+
+
+
+
+
+/* 2) Implementando media queries para mudança de layout
+Determine um ponto de quebra para a largura da tela em 1023px.
+No arquivo CSS, adicione a seguinte media query: */
+    @media (max-width: 1023px) {
+        .apresentacao {
+            flex-direction: column;
+            /* Outras propriedades, se necessário */
+        }
+    }
+/* Verifique se, ao diminuir a largura da tela para menos de 1023px, a imagem se move para cima do texto, conforme o design /mobile. */
+
+
+
+
+
+/* 
+3) Refinando o layout responsivo
+Ajuste a ordem dos elementos para que a imagem apareça acima do texto em telas menores que 1200px.
+No arquivo CSS, na media query para telas menores que 1200px, adicione o valor column-reverse à propriedade flex-direction da classe .apresentacao: */
+    @media (max-width: 1200px) {
+        .apresentacao {
+            flex-direction: column-reverse;
+            /* Outras propriedades, se necessário */
+        }
+    }
+/* Teste a mudança no navegador para garantir que a imagem apareça acima do texto em telas com largura abaixo de 1200px, alinhando-se com o design do Figma. */
+
+
+
+/* 4) Ajustando o cabeçalho para telas menores
+Observe como o cabeçalho se comporta em telas menores.
+No CSS, na media query para telas com largura máxima de 1200px, ajuste o padding da classe .cabecalho para centralizá-lo melhor: */
+    @media (max-width: 1200px) {
+        .cabecalho {
+            padding: 10%; /* Ajuste conforme necessário */
+        }
+    }
+/* Teste o layout em diferentes larguras de tela para garantir que o cabeçalho esteja alinhado adequadamente. */
+
+
+
+/* 5) Centralizando itens do menu em telas menores
+Verifique se a classe .cabecalho__menu já possui a propriedade display: flex.
+Adicione justify-content: center à classe .cabecalho__menu na mesma media query para centralizar os itens: */
+    @media (max-width: 1200px) {
+        .cabecalho__menu {
+            justify-content: center;
+        }
+    }
+/* Teste a página para ver se os itens "Home" e "Sobre mim" estão centralizados em telas menores. */
+
+
+
+
+
+/* 6) Refinando o design responsivo do cabeçalho
+Ajuste o padding e as propriedades do flexbox para refinar o design do cabeçalho.
+Experimente com diferentes valores de padding para encontrar o melhor alinhamento visual em relação ao design do Figma.
+Confira se as mudanças aplicadas estão proporcionando a experiência desejada em diferentes tamanhos de tela. */
